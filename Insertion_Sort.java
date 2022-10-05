@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.ArrayList;
 
-public class Insertion_sort {
+public class Insertion_Sort {
     static void insertion_sort(ArrayList str) {
         for (int i = 1; i < str.size(); i++) {
             String current = (String) str.get(i);
